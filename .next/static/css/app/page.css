@@ -1,0 +1,41 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[10].use[3]!./components/ui/product-image.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.product-image-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  border-radius: 8px 8px 0 0;
+  transition: transform 0.3s ease;
+}
+
+.product-image-container:hover {
+  transform: scale(1.03);
+}
+
+.product-image {
+  -o-object-fit: contain !important;
+     object-fit: contain !important;
+  padding: 1rem;
+  transition: opacity 0.3s ease;
+}
+
+.product-image-loading {
+  opacity: 0;
+}
+
+.product-image-loaded {
+  opacity: 1;
+}
+
+.product-image-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #666;
+  font-size: 14px;
+} 
